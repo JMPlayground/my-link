@@ -81,7 +81,7 @@ export default function Home() {
             이메일 보내기
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/JMPlayground"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full py-3 px-4 rounded-xl bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-800 dark:text-zinc-200 text-sm font-medium transition-all duration-150 active:scale-95 flex items-center justify-center gap-2"
