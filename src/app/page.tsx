@@ -22,29 +22,40 @@ export default function Home() {
           이정민
         </h1>
         <p className="text-xs sm:text-sm font-semibold tracking-wider text-indigo-600 dark:text-indigo-400 uppercase mb-4">
-          Student & Vibe Coder
+          SAP ABAP & Cloud Developer
         </p>
 
         {/* Bio Section */}
-        <div className="bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-100 dark:border-zinc-800 rounded-2xl p-4 w-full mb-6">
-          <p className="text-sm sm:text-base text-zinc-600 dark:text-zinc-300 leading-relaxed font-normal">
-            &ldquo;안녕하세요! 바이브 코딩을 배우고 있는 대학생입니다.&rdquo;
+        <div className="bg-zinc-50 dark:bg-zinc-800/50 border border-zinc-100 dark:border-zinc-800 rounded-2xl p-4 w-full mb-6 text-left">
+          <p className="text-sm text-zinc-700 dark:text-zinc-200 leading-relaxed font-normal">
+            비즈니스 프로세스와 IT의 접점을 설계하는 신입 SAP ABAP 개발자입니다. 
+            450시간의 집중 교육과 MM 모듈 리포팅 프로젝트 경험을 쌓았으며, 
+            <strong> 정보처리기사</strong> · <strong>SAP ABAP Cloud</strong> · <strong>SQLD</strong> 자격을 갖추었습니다.
+          </p>
+          <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-2 leading-relaxed">
+            현재 <strong>Code 2기</strong>에서 <strong>SAP UI5 및 ABAP</strong>을 심화 학습 중이며, 모던 Cloud 환경과 Claude AI(MCP) 연동까지 기술 스펙트럼을 넓혀가고 있습니다.
           </p>
         </div>
 
         {/* Interest / Tech Badges */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-6">
-          <span className="px-3 py-1 text-xs font-medium bg-indigo-50 text-indigo-700 dark:bg-indigo-950/60 dark:text-indigo-300 rounded-full border border-indigo-200 dark:border-indigo-800">
-            ✨ 바이브 코딩
+        <div className="flex flex-wrap items-center justify-center gap-1.5 mb-6">
+          <span className="px-2.5 py-1 text-xs font-semibold bg-indigo-50 text-indigo-700 dark:bg-indigo-950/60 dark:text-indigo-300 rounded-full border border-indigo-200 dark:border-indigo-800">
+            ⚡ SAP ABAP
           </span>
-          <span className="px-3 py-1 text-xs font-medium bg-slate-100 text-slate-700 dark:bg-zinc-800 dark:text-zinc-300 rounded-full">
-            🚀 Next.js
+          <span className="px-2.5 py-1 text-xs font-medium bg-amber-50 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300 rounded-full border border-amber-200 dark:border-amber-800">
+            🎨 SAP UI5
           </span>
-          <span className="px-3 py-1 text-xs font-medium bg-slate-100 text-slate-700 dark:bg-zinc-800 dark:text-zinc-300 rounded-full">
-            💻 React
+          <span className="px-2.5 py-1 text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 rounded-full border border-blue-200 dark:border-blue-800">
+            📜 정보처리기사
           </span>
-          <span className="px-3 py-1 text-xs font-medium bg-slate-100 text-slate-700 dark:bg-zinc-800 dark:text-zinc-300 rounded-full">
-            🎓 대학생
+          <span className="px-2.5 py-1 text-xs font-medium bg-sky-50 text-sky-700 dark:bg-sky-950/60 dark:text-sky-300 rounded-full border border-sky-200 dark:border-sky-800">
+            ☁️ ABAP Cloud
+          </span>
+          <span className="px-2.5 py-1 text-xs font-medium bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300 rounded-full border border-emerald-200 dark:border-emerald-800">
+            💾 SQLD
+          </span>
+          <span className="px-2.5 py-1 text-xs font-medium bg-purple-50 text-purple-700 dark:bg-purple-950/60 dark:text-purple-300 rounded-full border border-purple-200 dark:border-purple-800">
+            🤖 AI & MCP
           </span>
         </div>
 
