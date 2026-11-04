@@ -13,14 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "이정민 | 프로필",
-  description: "안녕하세요! 바이브 코딩을 배우고 있는 대학생입니다.",
+  title: "이정민 | SAP ABAP & Cloud Developer",
+  description: "비즈니스 프로세스와 엔터프라이즈 기술의 접점을 설계하는 SAP ABAP & Cloud 개발자 이정민의 프로필입니다.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="ko"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
