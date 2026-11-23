@@ -94,8 +94,8 @@ export default function Home() {
               </span>
             </div>
             <p className="text-[11px] sm:text-sm text-black font-bold leading-relaxed break-keep">
-              비즈니스 프로세스와 IT의 접점을 설계하는 신입 SAP ABAP 개발자입니다.
-              450시간의 집중 교육과 MM 모듈 리포팅 프로젝트를 완수하였으며,
+              SAP ABAP 신입 개발자입니다.
+              450시간 ABAP 집중 교육을 마치고 MM 구매·입고 리포트를 직접 개발했습니다.
               <span className="bg-[#bbf7d0] px-1 mx-0.5 border border-black rounded inline-block">
                 정보처리기사
               </span>
@@ -110,7 +110,7 @@ export default function Home() {
               자격을 취득했습니다.
             </p>
             <p className="text-[10px] sm:text-xs text-black/85 font-semibold mt-2 leading-relaxed pt-2 border-t-2 border-black/20 break-keep">
-              현재 <strong className="underline decoration-wavy decoration-[#f43f5e]">Code 2기</strong>에서 <strong>SAP UI5 및 ABAP</strong>을 심화 학습 중이며, Claude AI(MCP) 서버 연동까지 기술 영역을 끊임없이 확장하고 있습니다.
+              현재 <strong className="underline decoration-wavy decoration-[#f43f5e]">SAP CODE 2기</strong>에서 <strong>SAP UI5와 ABAP</strong>을 공부하고 있습니다.
             </p>
           </div>
 

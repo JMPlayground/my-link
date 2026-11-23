@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "이정민 | SAP ABAP & Cloud Developer",
-  description: "비즈니스 프로세스와 엔터프라이즈 기술의 접점을 설계하는 SAP ABAP & Cloud 개발자 이정민의 프로필입니다.",
+  description: "SAP ABAP 개발자 이정민의 프로필 페이지입니다.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
